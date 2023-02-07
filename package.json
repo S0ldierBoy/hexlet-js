@@ -1,12 +1,23 @@
 {
-  "name": "hexlet-hello-world",
+  "name": "hexlet",
   "version": "1.0.0",
   "type": "module",
-  "description": "Мой первый проект в Хекслете",
+  "description": "Мой первый проэкт на Хекслете",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S0ldierBoy/hexlet-js.git"
+  },
+  "author": "Nick G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S0ldierBoy/hexlet-js/issues"
+  },
+  "homepage": "https://github.com/S0ldierBoy/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
